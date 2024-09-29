@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:plum;
+    border: solid black 3px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: solid grey 5px;
+    width: 500px;
+
+    
+
+}
+
+
+.container{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    
+    
+}
+.container div{
+    
+flex: basis 20%;
+margin: 20px;
+border: solid black 4px;
+
+}
+
